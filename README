@@ -1,9 +1,9 @@
-ȫ�����ã�
- ���ز���װ Git
+全局设置：
+ 下载并安装 Git
   git config --global user.name "Your Name"
-  git config --global user.email liuyworld@hotmail.com
+  git config --global user.email yourname@youremail.com
         
-��һ����
+下一步：
   mkdir ChiSeg
   cd ChiSeg
   git init
@@ -13,7 +13,10 @@
   git remote add origin git@github.com:FLYui/ChiSeg.git
   git push -u origin master
       
-���е� Git �ֿ⣿
+现有的 Git 仓库？
   cd existing_git_repo
   git remote add origin git@github.com:FLYui/ChiSeg.git
   git push -u origin master
+
+//backup only 
+//抓取新浪的新闻作为数据源，进行统计分析，最后形成词库
