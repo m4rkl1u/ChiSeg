@@ -1,1 +1,4 @@
-Chinese Language Process
+#Chinese Language Proccess
+usage:
+spider(host_name,downloads_file_number)
+//only support www.sina.com.cn
