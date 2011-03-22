@@ -46,6 +46,7 @@ class mySpider:
         return urls
 
     def spider(startURL,times):
+        "usage: spider('www.sina.com.cn',100)"
         urls = []
         urls.append(startURL)
         i = 0
